@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link
+	  href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+	  rel="stylesheet"
+	  integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+	  crossorigin="anonymous"
+	/>
+	<link
+	  rel="stylesheet"
+	  href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+	  integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+	  crossorigin="anonymous"
+	/>
+	<title>FreeAir Dashboard</title>
+
+	<style>
+	  .bd-placeholder-img {
+		font-size: 1.125rem;
+		text-anchor: middle;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		user-select: none;
+	  }
+
+	  @media (min-width: 768px) {
+		.bd-placeholder-img-lg {
+		  font-size: 3.5rem;
+		}
+	  }
+	  body {
+		padding-bottom: 20px;
+	  }
+
+	  /* .navbar {
+		margin-bottom: 20px;
+	  } */
+	</style>
+  </head>
+  <body>
+	<header class="border-bottom p-1">
+	  <nav
+		class="navbar navbar-expand-lg navbar-light"
+		aria-label="Eighth navbar example"
+	  >
+		<div class="container">
+		  <a class="navbar-brand" href="#"><img class="bi me-2" width="40" height="32" src="../img/fan.svg">
+		  </img></a>
+		  <button
+			class="navbar-toggler"
+			type="button"
+			data-bs-toggle="collapse"
+			data-bs-target="#navbarsExample07"
+			aria-controls="navbarsExample07"
+			aria-expanded="false"
+			aria-label="Toggle navigation"
+		  >
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <div class="collapse navbar-collapse" id="navbarsExample07">
+			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+			  <li class="nav-item">
+				<a class="nav-link active" aria-current="page" href="#">Inicio</a>
+			  </li>
+
+			  <li class="nav-item dropdown">
+				<a
+				  class="nav-link dropdown-toggle"
+				  href="#"
+				  id="dropdown07"
+				  data-bs-toggle="dropdown"
+				  aria-expanded="false"
+				  >Mis clases</a
+				>
+				<ul class="dropdown-menu" aria-labelledby="dropdown07">
+				  <li><a class="dropdown-item" href="#">Ver mis asistencias</a></li>
+                  <li><a class="dropdown-item" href="#">Ver las asistencias de mis cursos</a></li>
+				  <li><a class="dropdown-item" href="#">Ver ventilación</a></li>
+				</ul>
+			  </li>
+
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Cambiar contraseña</a>
+			  </li>
+
+			</ul>
+			<div class="text-end">
+				<button type="button" class="btn btn-primary">Cerrar sesión</button>
+			</div>
+		  </div>
+		</div>
+	  </nav>
+	</header>
+	<main class="container py-4">
+		<div class="p-5 mb-3 bg-light rounded-3">
+            <div class="container-fluid py-2">
+                <h1 class="display-6 fw-bold">Hola Gabriela 👋🏻</h1>
+                <p class="col-md-8 fs-5">Te damos la bienvenida al sistema de gestión de ventilación:  FreeAir de la Universidad Peruana de Ciencias Aplicadas.</p>
+            </div>
+        </div>
+	</main>
+
+	<script
+	  src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+	  integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
+	  crossorigin="anonymous"
+	></script>
+	<script
+	  src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+	  integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+	  crossorigin="anonymous"
+	></script>
+  </body>
+</html>
